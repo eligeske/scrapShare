@@ -1,12 +1,15 @@
 // promoter logged in home page (after registration has occurred)
 
+
+// promoter object to show name and stuff 
 var promoter = {
     firstName: "",
     lastName: "",
     email: ""   
 }
 
-// events (add, remove)
+// list of events that this promoter has created
+// this page would also have the link to event crud page
 var events = [
     {
         id: 1,
